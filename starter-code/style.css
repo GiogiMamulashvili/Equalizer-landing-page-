@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: #f2f2f2;
+  background-image: url(./assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top -290px left 0px;
+}
+
+.heading-img {
+  margin-bottom: 64px;
+  margin-top: 8px;
+}
+
+h1 {
+  color: #191826;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.454545px;
+}
+
+.first-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+  margin-top: 20px;
+}
+
+header {
+  margin: 24px;
+  margin-bottom: 160px;
+}
+
+main {
+  background-color: #191826;
+  border-radius: 12px;
+  position: relative;
+}
+
+.mobile-img {
+  width: 208.97px;
+  height: 430px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(40%, -25%);
+}
+
+.background-img2 {
+  margin: 48px;
+  width: 280px;
+  height: 420px;
+}
+
+.grapefruit-div {
+  background-color: #fa7453;
+  width: 100%;
+  padding: 48px 36px;
+  border-radius: 12px;
+  margin-top: -93px;
+  position: relative;
+}
+
+.grapefruit-div p {
+  margin-top: 12px;
+  color: #fcfaf9;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.date {
+  transform: translate(0px, -13px);
+}
+
+h2 {
+  color: #fcfaf9;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h3 {
+  color: #fcfaf9;
+  font-weight: 700;
+  font-size: 65px;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.date {
+  display: inline-block;
+  padding-inline: 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+button {
+  border-radius: 12px;
+  width: 296px;
+  height: 61px;
+}
+
+.ios-btn {
+  background: #191826;
+  color: #fcfaf9;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}
+
+.ios-btn:hover {
+  background-color: #66e2dc;
+}
+
+.android-btn {
+  background: #fcfaf9;
+  color: #191826;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  border: none;
+}
+
+.android-btn:hover {
+  background-color: #ffb964;
+}
+
+.ios-icon {
+  margin-bottom: -2px;
+  position: relative;
+  left: -8px;
+}
+
+.android-icon {
+  margin-bottom: -2px;
+  position: relative;
+  left: -8px;
+}
+
+/* footer */
+
+.footer-img {
+  margin: 66px 24px;
+}
+
+.footer-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+  margin: -37px -1px 20px 24px;
+}
+
+.social-media-logos {
+  margin: 66px 197px 80px 23px;
+}
+
+.insta-logo {
+  margin-left: 17px;
+}
+
+.twitter-logo {
+  margin-left: 15px;
+}
+
+/* tablet version */
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(./assets/bg-pattern-1.svg);
+    background-position: top -39px right -35px;
+  }
+  h1 {
+    font-size: 64px;
+    line-height: 64px;
+    width: 520px;
+  }
+  .first-paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    width: 514px;
+  }
+
+  .heading-div {
+    margin: 99px -1px;
+  }
+
+  .heading-img {
+    margin: 33px 6px;
+  }
+
+  .mobile-img {
+    width: 270px;
+    height: 556px;
+  }
+
+  .background-img2 {
+    margin-left: 273px;
+  }
+
+  .grapefruit-div {
+    width: 399px;
+    height: 546px;
+    transform: translate(275px, -275px);
+    padding: 48px;
+  }
+  main {
+    width: 696px;
+    height: 600px;
+    margin-bottom: 105px;
+    transform: translate(38px, 10px);
+  }
+
+  footer {
+    margin-top: 168px;
+  }
+
+  .footer-p {
+    width: 366px;
+    margin: 0px;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-media-logos {
+    margin: 0px;
+  }
+}
+
+/*Desktop version*/
+
+@media (min-width: 1440px) {
+  .container {
+    margin: 165px;
+  }
+
+  .div-for-heading {
+    margin-top: -140px;
+  }
+
+  h1 {
+    font-size: 88px;
+    line-height: 88px;
+    width: 1015px;
+  }
+
+  .first-paragraph {
+    width: 825px;
+  }
+
+  main {
+    width: 1110px;
+  }
+
+  .grapefruit-div {
+    transform: translate(482px, -275px);
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .fb-logo:hover {
+    background-color: #fa7453;
+  }
+}
